@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    /*
+    display: flex;
+    justify-content: center;
+    */
+}
+
+.header{
+    width:100%;
+    padding: 20px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.header > h1{
+    font-size:24px;
+    font-weight: 600;
+    color: white;
+}
+
+.header > h2{
+    font-size:20px;
+    font-weight: 600;
+    color: white;
+}
+
+.contenedor1{
+    width: 95%;
+    min-width: 600px;
+    background-color: white;
+    margin: auto;
+    min-height: 280px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 160px 160px auto;
+    grid-column-gap: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.contenedor1 .b1, .contenedor2 .b1, .contenedor3 .b1{
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.contenedor1 .b1:hover, .contenedor2 .b1:hover, .contenedor3 .b1:hover{
+    border: solid 1px cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.contenedor1 .foto{
+    width: 400px;
+    display:block;
+}
+
+.contenedor2{
+    width: 95%;
+    min-width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contenedor2 .c1{
+    border: none;
+    width: 300px;
+    font-size: 14px;
+    border: solid 1px cornflowerblue;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.contenedor2 .msg{
+    font-size:14px;
+    font-weight: bold;
+    color: rgb(255, 73, 17);
+}
+
+::placeholder{
+    color: rgb(160, 160, 160);
+}
+
+.contenedor3{
+    width: 95%;
+    min-width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.contenedor3 .c2{
+    border: none;
+    width: 50px;
+    font-size: 14px;
+    border: solid 1px cornflowerblue;
+    border-radius: 5px;
+    padding: 5px
+}
+
+ul.resultados li{
+    font-size: 14px;
+    line-height: 30px;
+}
